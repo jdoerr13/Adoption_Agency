@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Agency</title>
+</head>
+<body>
+    <h1>Add a New Pet</h1>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        
+        <div>{{ form.name.label }}</div>
+        <div>{{ form.name }}</div>
+        
+        <div>{{ form.species.label }}</div>
+        <div>{{ form.species }}</div>
+        
+        <div>{{ form.photo_url.label }}</div>
+        <div>{{ form.photo_url }}</div>
+        
+        <div>{{ form.age.label }}</div>
+        <div>{{ form.age }}</div>
+        
+        <div>{{ form.notes.label }}</div>
+        <div>{{ form.notes }}</div>
+        
+        <div>{{ form.available.label }}</div>
+        <div>{{ form.available }}</div>
+        
+        <div><input type="submit" value="Add Pet"></div>
+    </form>
+</body>
+</html>
+<head>
+    <title>Add a New Pet</title>
+</head>
+
+</html>
+
+
+
+
